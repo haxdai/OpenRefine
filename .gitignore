@@ -5,6 +5,7 @@
 *.class
 .com.apple.timemachine.supported
 .import-temp/
+.vagrant/
 build/
 dist/
 server/classes/
