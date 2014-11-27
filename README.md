@@ -43,7 +43,7 @@ This is the full list of contributors (in chronological order):
  - Gabriel Sjoberg <GabrielSjoberg@gmail.com>
  - Rod Salazar <rodrod.salazar@gmail.com>
  - pxb <pxb1988@gmail.com>
- 
+
 We welcome additional contributors if you'd like to help out.
 
 Thank you for your interest.
@@ -51,3 +51,13 @@ Thank you for your interest.
 ----
 The OpenRefine Development Team
 http://openrefine.org
+
+###OpenRefine using [Vagrant](https://www.vagrantup.com/)
+
+To run a provisioned virtual machine with OpenRefine built in, type the following command.
+
+````sh
+vagrant up
+````
+
+OpenRefine will start up on 192.168.33.10:3333
