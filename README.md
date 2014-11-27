@@ -58,6 +58,9 @@ To run a provisioned virtual machine with OpenRefine built in, type the followin
 
 ````sh
 vagrant up
+vagrant ssh
+cd /opt/OpenRefine
+./refine -i 0.0.0.0
 ````
 
 OpenRefine will start up on 192.168.33.10:3333
